@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.game {
+  height: 100vh;
+}
+
+h3 {
+  color: white;
+}
+
+.start {
+  color: white;
+  margin-top: 10px;
+  background-color: gray;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.time_list {
+  display: flex;
+  gap: 17px;
+}
+
+.button {
+  background-color: gray;
+  border-radius: 60px;
+  padding: 6px 10px;
+  color: white;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.new_game {
+  background-color: gray;
+  border-radius: 60px;
+  padding: 6px 10px;
+  color: white;
+}
+
+.board {
+  background: wheat;
+  max-width: 100px;
+  border-radius: 10px;
+}/*# sourceMappingURL=index.css.map */
