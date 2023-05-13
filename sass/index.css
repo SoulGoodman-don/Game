@@ -20,6 +20,10 @@ a {
   background-color: black;
 }
 
+.screen.up {
+  margin-top: -100vh;
+}
+
 .game {
   height: 100vh;
 }
