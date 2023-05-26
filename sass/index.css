@@ -25,6 +25,7 @@ a {
 }
 
 .game {
+  overflow: hidden;
   height: 100vh;
 }
 
@@ -40,23 +41,23 @@ h3 {
   padding: 10px;
 }
 
-.time_list {
+.time-list {
   display: flex;
   gap: 17px;
 }
 
-.button {
+.time__btn {
   background-color: gray;
   border-radius: 60px;
   padding: 6px 10px;
   color: white;
 }
 
-.title {
+.game__title {
   margin-bottom: 20px;
 }
 
-.new_game {
+.game__new {
   background-color: gray;
   border-radius: 60px;
   padding: 6px 10px;
@@ -65,6 +66,25 @@ h3 {
 
 .board {
   background: wheat;
-  max-width: 100px;
+  width: 500px;
+  height: 500px;
   border-radius: 10px;
+  display: flex;
+  margin: 20px;
+  position: relative;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.circle {
+  background-image: url("/Ball.svg");
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+}
+
+.time {
+  color: white;
 }/*# sourceMappingURL=index.css.map */
